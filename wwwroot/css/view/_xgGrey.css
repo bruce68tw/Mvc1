@@ -1,0 +1,69 @@
+﻿:root {
+    /*=== 6個主色 ===*/
+    --top-bg: #d6dde4; /* 主色1 */
+    --left-bg: #394750; /* 主色2 */
+    --right-bg: #f1f1f1; /* 主色3 */
+    --left-hbg: #83cc53; /* 主色4 */
+    --right: #212529; /* 主色5 */
+    --right2: #ffffff; /* 主色6 */
+    /*=== top ===*/
+    --top: #6c7176;
+    --top-bd: #c2c9d0; /* 主色1-1 */
+    --top-icon: #6c7176;
+    --top-title: #6c7176;
+    /*=== left 區域 & 第一層 menu ===*/
+    --left1: #a9b2b8;
+    --left1-line: #4a5861;
+    --left-hover: #ffffff;
+    /*=== 第二層 menu ===*/
+    --left2-bg: #4a5861; /* 主色2+1 */
+    --left2: #e9eef1;
+    --left2-line: #5a6872;
+    /*=== 程式路徑 ===*/
+    --prog-path: #343a40; /* 主色5-1 */
+    /*=== Table ===*/
+    --table-head-bg: #d6e9f9;
+    --table: var(--right);
+    --table-row-hbg: #e5ecf1;
+    /*=== 小訊息視窗 ===*/
+    --alert-bg: #6fb545; /* 主色4-1 */
+    --alert: var(--right2);
+    /*=== 分群文字 & 分隔線 ===*/
+    --group-title: #343a40; /* 主色5-1 */
+    --group-title-hover: var(--right2); /* 主色6 */
+    --group-title-hbg: var(--left-hbg); /* 主色4 */
+    --group-line: #495057; /* 主色5-2 */
+    /*=== button btn1 ===*/
+    --btn1: var(--right2);
+    --btn1-bg: #0d6efd;
+    --btn1-bd: #466aa2;
+    --btn1-hbd: rgba(91,132,198,0.45);
+    /*=== button btn2 ===*/
+    --btn2: var(--right2);
+    --btn2-bg: #157347;
+    --btn2-bd: #648871;
+    --btn2-hbd: rgba(126,164,138,0.45);
+    /*=== button cancel ===*/
+    --btn-cancel: #4f555a;
+    --btn-cancel-bg: #e6e8eb;
+    --btn-cancel-bd: #cfd4d9;
+    --btn-cancel-hbd: rgba(0,0,0,0.25);
+    /*=== button other ===*/
+    --btn-other: var(--right2);
+    --btn-other-bg: #6c757d;
+    --btn-other-bd: #606c79;
+    --btn-other-hbd: rgba(122,135,150,0.45);
+    /*=== button red ===*/
+    --btn-red: var(--right2);
+    --btn-red-bg: #c94a42;
+    --btn-red-bd: #a43731;
+    --btn-red-hbd: rgba(201,74,66,0.5);
+    /*=== row button（table 內） ===*/
+    --row-btn: var(--right2);
+    --row-btn-bg: #5f8fa3;
+    --row-btn-bd: #4b7687;
+    --row-btn-hbd: rgba(95,143,163,0.45);
+    /*=== Modal ===*/
+    --modal-head-bg: #f7f7f7; /* 主色3+1 */
+    --modal-bg: var(--right-bg);
+}

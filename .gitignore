@@ -1,0 +1,17 @@
+.vs/
+bin/
+obj/
+_log/
+_upload/
+packages/
+*.rar
+*.bak
+zz_*.*
+old/
+wwwroot_old/
+node_modules/
+.config/
+/wwwroot/my*.js
+/wwwroot/lib*.js
+/wwwroot/my*.css
+/wwwroot/lib*.css

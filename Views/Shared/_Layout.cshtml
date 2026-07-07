@@ -1,0 +1,153 @@
+﻿@using Base.Models
+@using Mvc1.Services
+@using Microsoft.AspNetCore.Antiforgery
+@inject IAntiforgery Antiforgery
+
+@{
+    var libVer = _Xp.LibVer;
+    var myVer = _Xp.MyVer;
+    var min = _Fun.IsDev ? "" : ".min";   //min js
+    var locale = _Locale.GetLocale();
+    //var locale = _Fun.Config.Locale;
+
+    var userType = _Fun.GetBaseUser().UserType;
+    var setPwd = new MenuDto() { Name = "設定密碼", Url = "/SetPwd/Index" };
+    List<MenuDto> menus;
+    if (userType == UserTypeEstr.NoPwd)
+        menus = new() { setPwd };
+    else
+    {
+        menus = new()
+        {
+            new() { Name = "功能1", Url = "/Fun1/Read" },
+            new() { Name = "功能2", Url = "/Fun2/Read" },
+            setPwd,
+        };
+
+        /*
+        //for admin only
+        if (userType == UserTypeEstr.Admin)
+            menus.Add(new() { Name = "使用者管理", Url = "/User/Read" });
+        */
+    }
+}
+
+<style nonce="@_Fun.Nonce">
+    .xu-logo {
+        height: 36px;
+        width: auto;
+        padding-right: 6px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@_Fun.Config.SystemName</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- 防止 CSRF  -->
+    <meta name="csrf-token" content="@(Antiforgery.GetAndStoreTokens(Context).RequestToken)" />
+
+    <!-- 1.load css -->
+    <link rel="stylesheet" href="~/lib@(min).css?v=@libVer" />
+    @RenderSection("styles", required: false)
+
+    <!-- 2.load lib js -->
+    <script nonce="@_Fun.Nonce" src="~/lib@(min).js?v=@libVer"></script>
+
+    <!-- 3.load my site js(debug/production mode) !! -->
+    <environment include="Production">
+        <link rel="stylesheet" href="~/my@(min).css?v=@myVer" />
+        <script nonce="@_Fun.Nonce" src="~/my@(min).js?v=@myVer"></script>
+    </environment>
+    <environment include="Development">
+        <!-- tail ver will load failed !! -->
+        <link rel="stylesheet" asp-href-include="~/css/icomoon.css" />
+        <link rel="stylesheet" asp-href-include="~/css/base/*.css" />
+        <script nonce="@_Fun.Nonce" asp-src-include="~/js/base/*.js"></script>
+        <script nonce="@_Fun.Nonce" asp-src-include="~/js/view/_*.js"></script>
+    </environment>
+    <!-- 加上id for 動態載入 -->
+    <link rel="stylesheet" asp-href-include="~/css/view/_themeLight.css" />
+    <link id="xgTheme" rel="stylesheet" asp-href-include="~/css/view/_xgGrey.css" />
+
+    <!-- 4.load local js -->
+    <script nonce="@_Fun.Nonce" src="~/locale/@(locale+min).js?v=@myVer"></script>
+
+    @RenderSection("scripts", required: false)
+
+    <!-- 5.initial -->
+    <script nonce="@_Fun.Nonce">
+        $(function () {
+            _fun.init('@locale');
+            _fun.pageRows = 20;
+            //_fun.lengthMenu = [10, 20, 50, 100, 150];
+            _fun.userId = '@_Fun.UserId()';
+        });
+    </script>
+</head>
+
+<!-- 6.show view -->
+<body class="x-main">
+    <!-- Top -->
+    <nav class="navbar navbar-expand navbar-dark x-main-top">
+        <a class="sidebar-toggle me-3 cursor-pointer" data-onclick="_leftmenu.onToggleMenu">
+            <i class="ico-menu"></i>
+        </a>
+
+        <!-- Logo -->
+        <img src="/image/logo.png" class="xu-logo">
+
+        <div class="title">@_Fun.Config.SystemName</div>
+        <div class="navbar-collapse collapse justify-content-end">
+            <ul class="navbar-nav ml-auto">
+                @*
+                <li>
+                @Html.XiSelect("_Locale", _Session.Locale, locales, prop: new PropSelectDto() { AddEmptyRow = false, FnOnChange = "_xp.onChangeLocale" })
+                </li>
+                @{
+                    List<IdStrDto> colors = new()
+                    {
+                        new(){ Id = "Orange", Str = "温馨橘" },
+                        new(){ Id = "GreenApple", Str = "蘋果綠" },
+                        new(){ Id = "Blue", Str = "舒適藍" },
+                        //new(){ Id = "Green", Str = "時尚綠" },
+                        new(){ Id = "Grey", Str = "紳士灰" },
+                    };
+                }
+                <li>
+                    <vc:xi-select dto='new() { Fid = "Color", Rows = colors, ClsBox = "x-w100", AddEmpty = false, FnOnChange = "_html.loadThemeByElm"}' />
+                </li>
+                *@
+                <li>
+                    <a class="nav-link" href="@Url.Action("Index", "Home")">
+                        <i class="ico-home"></i>
+                    </a>
+                </li>
+                <li>
+                    @_Fun.GetBaseUser().UserName
+                </li>
+                <li>
+                    <a class="nav-link" title="Logout" href="@Url.Action("Logout", "Home")">
+                        <i class="ico-exit"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="x-main-down">
+        <!-- left menu -->
+        @await Component.InvokeAsync("XgLeftMenu", new { rows = menus })
+
+        <!-- work area -->
+        <div class="x-main-right">
+            @RenderBody()
+        </div>
+    </div>
+
+    <!-- tool component -->
+    <vc:xg-tool/>
+</body>
+</html>
