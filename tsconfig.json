@@ -1,46 +1,30 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
-
-    // Environment Settings
-    // See also https://aka.ms/tsconfig/module
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "target": "ES2020",
-    "types": ["node"],
-    "esModuleInterop": true,
-    // For nodejs:
-    // "lib": ["esnext"],
-    // "types": ["node"],
-    // and npm install -D @types/node
-
-    // Other Outputs
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-
-    // Stricter Typechecking Options
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-
-    // Style Options
-    // "noImplicitReturns": true,
-    // "noImplicitOverride": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noFallthroughCasesInSwitch": true,
-    // "noPropertyAccessFromIndexSignature": true,
-
-    // Recommended Options
-    "strict": true,
-    "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true
-  }
+    "target": "ES2022", //編譯後 JavaScript 版本
+    "module": "ESNext", //使用 ES Module 格式
+    "moduleResolution": "Bundler", //適合 Vite 的模組解析方式
+    "rootDir": "../baseTs", //TypeScript 原始碼根目錄
+    "outDir": "wwwroot/js", //JavaScript 輸出目錄
+    "sourceMap": true, //產生 sourcemap，方便除錯 TS
+    "declaration": false, //不產生 d.ts 宣告檔
+    "strict": false, //初期 TS 化可關閉嚴格檢查
+    "skipLibCheck": true, //忽略第三方套件型別檢查
+    "esModuleInterop": true, //支援 CommonJS default import
+    "allowJs": false, //不編譯 JavaScript 檔
+    "checkJs": false, //不檢查 JavaScript 型別
+    "forceConsistentCasingInFileNames": true, //強制檔名大小寫一致
+    "removeComments": false, //保留 TS 原始註解
+    "composite": false, //避免 TypeScript 專案參考誤判
+    "types": [
+      "jquery"
+    ]
+  },
+  "include": [
+    "../baseTs/**/*.ts" //只編譯 TS 目錄
+  ],
+  "exclude": [
+    "node_modules", //排除 npm 套件
+    "wwwroot/js",   //排除 TS 編譯輸出
+    "wwwroot/lib"   //排除第三方 JS
+  ]
 }

@@ -28,7 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.10" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
@@ -38,6 +37,12 @@
     <ProjectReference Include="..\Base\BaseApi\BaseApi.csproj" />
     <ProjectReference Include="..\Base\BaseWeb\BaseWeb.csproj" />
     <ProjectReference Include="..\Base\Base\Base.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\lib\" />
+    <Folder Include="wwwroot\js\view\" />
+    <Folder Include="wwwroot\ts\view\" />
   </ItemGroup>
 
 </Project>

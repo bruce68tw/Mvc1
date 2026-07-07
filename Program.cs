@@ -30,7 +30,6 @@ services.AddTransient<DbConnection, SqlConnection>();   //ado.net for mssql
 services.AddTransient<DbCommand, SqlCommand>();
 
 //cache server
-//services.AddDistributedMemoryCache();   //AddDistributedRedisCache is old
 services.AddMemoryCache();
 //services.AddStackExchangeRedisCache(opts => { opts.Configuration = config.Redis; });
 services.AddSingleton<ICacheSvc, CacheMemSvc>();
