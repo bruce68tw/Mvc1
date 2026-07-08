@@ -8,6 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\js\**" />
+    <Compile Remove="wwwroot\ts\**" />
+    <Compile Remove="_log\**" />
+    <Content Remove="wwwroot\js\**" />
+    <Content Remove="wwwroot\ts\**" />
+    <Content Remove="_log\**" />
+    <EmbeddedResource Remove="wwwroot\js\**" />
+    <EmbeddedResource Remove="wwwroot\ts\**" />
+    <EmbeddedResource Remove="_log\**" />
+    <None Remove="wwwroot\js\**" />
+    <None Remove="wwwroot\ts\**" />
+    <None Remove="_log\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="tsconfig.json" />
   </ItemGroup>
 
@@ -40,9 +55,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\js\lib\" />
-    <Folder Include="wwwroot\js\view\" />
-    <Folder Include="wwwroot\ts\view\" />
+    <Folder Include="wwwroot\jsView\" />
   </ItemGroup>
 
 </Project>

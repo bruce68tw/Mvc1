@@ -3,8 +3,8 @@
     "target": "ES2022", //編譯後 JavaScript 版本
     "module": "ESNext", //使用 ES Module 格式
     "moduleResolution": "Bundler", //適合 Vite 的模組解析方式
-    "rootDir": "../baseTs", //TypeScript 原始碼根目錄
-    "outDir": "wwwroot/js", //JavaScript 輸出目錄
+    "rootDir": "../BaseTs", //TypeScript 原始碼根目錄
+    "outDir": "wwwroot/_src/js", //JavaScript 輸出目錄
     "sourceMap": true, //產生 sourcemap，方便除錯 TS
     "declaration": false, //不產生 d.ts 宣告檔
     "strict": false, //初期 TS 化可關閉嚴格檢查
@@ -20,11 +20,11 @@
     ]
   },
   "include": [
-    "../baseTs/**/*.ts" //只編譯 TS 目錄
+    "../BaseTs/**/*.ts" //只編譯 TS 目錄
   ],
   "exclude": [
     "node_modules", //排除 npm 套件
-    "wwwroot/js",   //排除 TS 編譯輸出
-    "wwwroot/lib"   //排除第三方 JS
+    "wwwroot/_src/js", //排除 TS 編譯輸出
+    "wwwroot/lib" //排除第三方 JS
   ]
 }

@@ -17,30 +17,6 @@ var _chart = {
     ],
 
     /**
-     * show one line chart
-     * param divId {string}
-     * param rows {List<IdNumDto>}
-     * param color {string} 
-     */
-    /*
-    line: function (canvasId, rows, color) {
-        var ids = [];
-        var values = [];
-        for (var i=0; i<rows.length; i++) {
-            var row = rows[i];
-            ids[i] = row.Id;
-            values[i] = row.Num;
-        }
-        _chart.drawLine(canvasId, ids, values, color);
-    },
-
-    _clear: function () {
-        if (_chart._nowChart != null)
-            _chart._nowChart.destroy();
-    },
-    */
-
-    /**
      * show chart
      * param type {string} bar/pie/line
      * param canvasObj {object} canvas Object
