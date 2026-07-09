@@ -2,78 +2,62 @@
   {
     "outputFileName": "wwwroot/lib.css",
     "inputFiles": [
-      "wwwroot/css/lib/bootstrap-5.2.3.css",
-      "wwwroot/css/lib/datatables-2.3.2.css",
-      "wwwroot/css/lib/bootstrap-datepicker-1.9.css",
-      //"wwwroot/css/lib/summernote-bs5.css"
-      "wwwroot/css/lib/icomoon.css"
+      "../Base/BaseTs/_dist/cssLib/bootstrap-5.2.3.css",
+      "../Base/BaseTs/_dist/cssLib/datatables-2.3.2.css",
+      "../Base/BaseTs/_dist/cssLib/bootstrap-datepicker-1.9.css",
+      "../Base/BaseTs/_dist/cssLib/icomoon.css"
     ]
   },
 
   {
-    "outputFileName": "wwwroot/my.css",
+    "outputFileName": "wwwroot/base.css",
     "inputFiles": [
-      "wwwroot/css/base/*.css"
+      "../Base/BaseTs/_dist/cssBase/*.css"
     ]
   },
 
   {
     "outputFileName": "wwwroot/lib.js",
     "inputFiles": [
-      "wwwroot/js/lib/jquery-3.7.1.js",
-      "wwwroot/js/lib/bootstrap.bundle-5.2.3.js",
-      "wwwroot/js/lib/bootstrap-datepicker-1.9.js",
-      "wwwroot/js/lib/datatables-2.3.2.js",
-      "wwwroot/js/lib/jquery.validate-1.19.3-bruce.js",
-      "wwwroot/js/lib/jquery.pjax-2.0.1-bruce.js",
-      //"wwwroot/js/lib/jquery.blockUI-2.7.js",
-      //Modernizr 會引發 CSP, 先停用
-      //"wwwroot/js/lib/modernizr-2.8.3.js",
-      "wwwroot/js/lib/moment-2.30.1.js",
-      "wwwroot/js/lib/mustache-3.1.js",
-      "wwwroot/js/lib/chart-4.4.1.js"
+      "../Base/BaseTs/_dist/jsLib/jquery-3.7.1.js",
+      "../Base/BaseTs/_dist/jsLib/bootstrap.bundle-5.2.3.js",
+      "../Base/BaseTs/_dist/jsLib/bootstrap-datepicker-1.9.js",
+      "../Base/BaseTs/_dist/jsLib/datatables-2.3.2.js",
+      "../Base/BaseTs/_dist/jsLib/jquery.validate-1.19.3-bruce.js",
+      "../Base/BaseTs/_dist/jsLib/jquery.pjax-2.0.1-bruce.js",
+      "../Base/BaseTs/_dist/jsLib/moment-2.30.1.js",
+      "../Base/BaseTs/_dist/jsLib/mustache-3.1.js",
+      "../Base/BaseTs/_dist/jsLib/chart-4.4.1.js"
     ]
-    /*
-    "minify": {
-      "enabled": true,
-      "renameLocals": false
-    },
-    "sourceMap": false
-    */
   },
 
   {
-    "outputFileName": "wwwroot/my.js",
+    "outputFileName": "wwwroot/base.js",
     "inputFiles": [
-      "wwwroot/js/base/*.js",
-      "wwwroot/js/view/_*.js"
+      "../Base/BaseTs/_dist/jsBase/Enums/*.js",
+      "../Base/BaseTs/_dist/jsBase/Models/*.js",
+      "../Base/BaseTs/_dist/jsBase/Services/*.js"
     ]
-    /*
-    "minify": {
-      "enabled": true,
-      "renameLocals": false
-    },
-    "sourceMap": false
-    */
   },
 
-  /* locale */
   {
     "outputFileName": "wwwroot/locale/zh-TW.js",
     "inputFiles": [
-      "wwwroot/locale/zh-TW/*.js"
+      "../Base/BaseTs/_dist/jsBase/Locale/zh-TW/*.js"
     ]
   },
+
   {
     "outputFileName": "wwwroot/locale/zh-CN.js",
     "inputFiles": [
-      "wwwroot/locale/zh-CN/*.js"
+      "../Base/BaseTs/_dist/jsBase/Locale/zh-CN/*.js"
     ]
   },
+
   {
     "outputFileName": "wwwroot/locale/en-US.js",
     "inputFiles": [
-      "wwwroot/locale/en-US/*.js"
+      "../Base/BaseTs/_dist/jsBase/Locale/en-US/*.js"
     ]
   }
 ]

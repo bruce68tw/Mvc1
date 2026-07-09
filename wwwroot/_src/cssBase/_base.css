@@ -1,4 +1,4 @@
-﻿/** 
+/** 
   額外控制輸入欄位寬度(不使用inline style, 避開 CSRF): sm, md, lg
   padding, margin 使用bootstrap 5
   自定寬度pixel (bootstrap 5只有相對寬度)

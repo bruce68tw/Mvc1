@@ -58,15 +58,16 @@
 
     <!-- 3.load my site js(debug/production mode) !! -->
     <environment include="Production">
-        <link rel="stylesheet" href="~/my@(min).css?v=@myVer" />
-        <script nonce="@_Fun.Nonce" src="~/my@(min).js?v=@myVer"></script>
+        <link rel="stylesheet" href="~/base@(min).css?v=@myVer" />
+        <script nonce="@_Fun.Nonce" src="~/base@(min).js?v=@myVer"></script>
     </environment>
     <environment include="Development">
         <!-- tail ver will load failed !! -->
-        <link rel="stylesheet" asp-href-include="~/css/icomoon.css" />
-        <link rel="stylesheet" asp-href-include="~/css/base/*.css" />
-        <script nonce="@_Fun.Nonce" asp-src-include="~/js/base/*.js"></script>
-        <script nonce="@_Fun.Nonce" asp-src-include="~/js/view/_*.js"></script>
+        <link rel="stylesheet" asp-href-include="~/_src/cssBase/*.css" />
+        <script nonce="@_Fun.Nonce" asp-src-include="~/_src/jsBase/Enums/*.js"></script>
+        <script nonce="@_Fun.Nonce" asp-src-include="~/_src/jsBase/Models/*.js"></script>
+        <script nonce="@_Fun.Nonce" asp-src-include="~/_src/jsBase/Services/*.js"></script>
+        <script nonce="@_Fun.Nonce" asp-src-include="~/jsView/_*.js"></script>
     </environment>
     <!-- 加上id for 動態載入 -->
     <link rel="stylesheet" asp-href-include="~/css/view/_themeLight.css" />
@@ -80,10 +81,10 @@
     <!-- 5.initial -->
     <script nonce="@_Fun.Nonce">
         $(function () {
-            _fun.init('@locale');
-            _fun.pageRows = 20;
+            _Fun.init('@locale');
+            _Fun.pageRows = 20;
             //_fun.lengthMenu = [10, 20, 50, 100, 150];
-            _fun.userId = '@_Fun.UserId()';
+            _Fun.userId = '@_Fun.UserId()';
         });
     </script>
 </head>

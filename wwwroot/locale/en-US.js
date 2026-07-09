@@ -16,63 +16,52 @@
 	};
 }(jQuery));
 
-//resource for js base component
-var _BR = {
-
+export default class _BR {
     //=== moment.js ymd format ===
-    MmUiDateFmt: 'MMM-D-YYYY',          //match datepicker format
-    MmUiDtFmt: 'MMM-D-YYYY HH:mm:ss', 
-    MmUiDt2Fmt: 'MMM-D-YYYY HH:mm',     //no second
-
+    static MmUiDateFmt = 'MMM-D-YYYY'; //match datepicker format
+    static MmUiDtFmt = 'MMM-D-YYYY HH:mm:ss';
+    static MmUiDt2Fmt = 'MMM-D-YYYY HH:mm'; //no second
     //row status
-    StatusYes: 'Active',
-    StatusNo: 'Off',
-    Yes: 'Yes',
-
+    static StatusYes = 'Active';
+    static StatusNo = 'Off';
+    static Yes = 'Yes';
     //check input
-    InputWrong: 'Input Wrong.',
-
+    static InputWrong = 'Input Wrong.';
     //for crud form
-    Create: 'Create',
-    Update: 'Update',
-    View: 'View',
-    UpdateOk: 'Update Ok.',
-    DeleteOk: 'Delete Ok.',
-    SaveOk: 'Save Ok.',
-    SaveNone: 'No row changed !',
-    Done: 'Done.',
-
+    static Create = 'Create';
+    static Update = 'Update';
+    static View = 'View';
+    static UpdateOk = 'Update Ok.';
+    static DeleteOk = 'Delete Ok.';
+    static SaveOk = 'Save Ok.';
+    static SaveNone = 'No row changed !';
+    static Done = 'Done.';
     //find form
-    FindOk: 'Find Ok.',
-    FindNone: 'Find None !',
-
+    static FindOk = 'Find Ok.';
+    static FindNone = 'Find None !';
     //form tip
-    TipUpdate: 'Update this Row.',
-    TipDelete: 'Delete this Row.',
-    TipView: 'View this Row.',
-    TipCopy: 'Copy this data and enter new mode',
-    
+    static TipUpdate = 'Update this Row.';
+    static TipDelete = 'Delete this Row.';
+    static TipView = 'View this Row.';
+    static TipCopy = 'Copy this data and enter new mode';
     //message-upload file
-    UploadFileNotBig: 'Upload File Size Should Less Than {0}M !',
-    UploadFileNotMatch: 'Upload File Type Not Match !',
-    NewFileNotView: 'Save First Then View !',
-
+    static UploadFileNotBig = 'Upload File Size Should Less Than {0}M !';
+    static UploadFileNotMatch = 'Upload File Type Not Match !';
+    static NewFileNotView = 'Save First Then View !';
     //message-others
-    PlsSelect: '-Select-',
-    PlsSelectDeleted: 'Please Select Deleted Rows.',
-    PlsSelectRows: 'Please Select Rows First.',
-    SureDeleteRow: 'Sure to Delete Row ?',
-    SureDeleteSelected: 'Sure to Delete Selected ?',
-
+    static PlsSelect = '-Select-';
+    static PlsSelectDeleted = 'Please Select Deleted Rows.';
+    static PlsSelectRows = 'Please Select Rows First.';
+    static SureDeleteRow = 'Sure to Delete Row ?';
+    static SureDeleteSelected = 'Sure to Delete Selected ?';
     //authority
-    NoAuthUser: 'No right for this user, Please connect Admin.',
-    NoAuthDept: 'No right for this department, Please connect Admin.',
-    NoAuthProg: 'You have not access right, Please connect Admin.',
-    NoFile: 'No File Existed.',
-    NotLogin: 'Please Login First.',
-
+    static NoAuthUser = 'No right for this user; Please connect Admin.';
+    static NoAuthDept = 'No right for this department; Please connect Admin.';
+    static NoAuthProg = 'You have not access right; Please connect Admin.';
+    static NoFile = 'No File Existed.';
+    static NotLogin = 'Please Login First.';
     //others
-    Working: 'Working...',
-    TimeOut: 'Standby too long, or not Login.',
-    UniqueError: 'Record Exists no Repeated.'
-};
+    static Working = 'Working...';
+    static TimeOut = 'Standby too long; or not Login.';
+    static UniqueError = 'Record Exists no Repeated.';
+}
