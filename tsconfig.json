@@ -3,7 +3,7 @@
     "target": "ES2022", //編譯後 JavaScript 版本
     "module": "ESNext", //使用 ES Module 格式
     "moduleResolution": "Bundler", //適合 Vite 的模組解析方式
-    "rootDir": "../BaseTs", //TypeScript 原始碼根目錄
+    "rootDir": "../Base/BaseTs", //TypeScript 原始碼根目錄
     "outDir": "wwwroot/_src/js", //JavaScript 輸出目錄
     "sourceMap": true, //產生 sourcemap，方便除錯 TS
     "declaration": false, //不產生 d.ts 宣告檔
@@ -15,12 +15,10 @@
     "forceConsistentCasingInFileNames": true, //強制檔名大小寫一致
     "removeComments": false, //保留 TS 原始註解
     "composite": false, //避免 TypeScript 專案參考誤判
-    "types": [
-      "jquery"
-    ]
+    "types": [ "jquery", "jquery.validation", "datatables.net" ]
   },
   "include": [
-    "../BaseTs/**/*.ts" //只編譯 TS 目錄
+    "../Base/BaseTs/**/*.ts" //只編譯 TS 目錄
   ],
   "exclude": [
     "node_modules", //排除 npm 套件

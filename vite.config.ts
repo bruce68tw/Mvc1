@@ -2,15 +2,19 @@
 import { resolve } from "path";
 
 export default defineConfig(({ mode }) => {
-    const isProd = mode === "production";
+    const isProd = (mode === "production");
     return {
         build: {
-            outDir: "wwwroot2",
+            outDir: "wwwroot",
             emptyOutDir: false,
             minify: isProd ? "terser" : false,
             cssMinify: true,
             rollupOptions: {
                 input: {
+                    common: resolve(
+                        __dirname,
+                        "../Base/BaseTs/_js"
+                    ),
                     lib: resolve(__dirname, "ts-entry/lib.ts"),
                     ...(isProd
                         ? {

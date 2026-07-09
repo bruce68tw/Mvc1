@@ -1,6 +1,7 @@
+import _Error from './_Error';
 export default class _Assert {
     static echo(msg) {
-        _error.log('_assert.js ' + msg);
+        _Error.log('_assert.js ' + msg);
     }
     //find array
     //return index
