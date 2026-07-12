@@ -1,65 +1,160 @@
-const gulp = require('gulp');
-const concat = require('gulp-concat');
-const cleanCSS = require('gulp-clean-css');
-const uglify = require('gulp-uglify');
-const rename = require('gulp-rename');
-const fs = require('fs');
+const gulp = require("gulp");
+const clean = require("gulp-clean");
+const concat = require("gulp-concat");
+const uglify = require("gulp-uglify");
+const rename = require("gulp-rename");
+const esbuild = require("esbuild");
+const fs = require("fs");
+const cleanCSS = require("gulp-clean-css");
+const terser = require("gulp-terser");
+const sourcemaps = require("gulp-sourcemaps");
+const path = require("path");
 
-// 讀取 bundleconfig.json
-const bundleConfig = JSON.parse(fs.readFileSync('./bundleconfig.json', 'utf8'));
+const dirBase = "../Base/BaseTs/";
+const dirSrc = `${dirBase}_src/`;
 
-/**
- * 處理打包與壓縮的通用函數
- */
-function processBundle(bundle) {
-    const isJs = bundle.outputFileName.endsWith('.js');
-    const isCss = bundle.outputFileName.endsWith('.css');
-    const fileName = bundle.outputFileName.split('/').pop();
-    const destDir = bundle.outputFileName.substring(0, bundle.outputFileName.lastIndexOf('/'));
-
-    return gulp.src(bundle.inputFiles)
-        .pipe(concat(fileName))
-        .pipe(gulp.dest(destDir)) // 輸出原始版 (例如: lib.js)
-        .pipe(isJs ? uglify() : cleanCSS()) // 根據類型壓縮
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest(destDir)); // 輸出壓縮版 (例如: lib.min.js)
+// Clean
+function cleanTask() {
+    return gulp.src([
+        "wwwroot/base.min.js",
+        "wwwroot/lib.min.js",
+        "wwwroot/base.min.css",
+        "wwwroot/lib.min.css"
+    ], {
+        read: false,
+        allowEmpty: true
+    })
+        .pipe(clean());
 }
 
-// 動態產生任務
-const bundleTasks = bundleConfig.map(bundle => {
-    const taskName = `bundle:${bundle.outputFileName}`;
-    gulp.task(taskName, () => processBundle(bundle));
-    return taskName;
-});
+// tsBase to w3/base.min.js
+async function doTsBase() {
+    await esbuild.build({
+        entryPoints: [`${dirBase}index.ts`],
+        bundle: true,
+        minify: true,
+        sourcemap: true,
+        outfile: "wwwroot/base.min.js",
+        format: "iife",
+        target: ["es2018"]
+    });
+}
 
-// copy css base
-gulp.task('copy-css', () => {
-    return gulp.src('../Base/BaseTs/_dist/cssBase/*')
-        .pipe(gulp.dest('wwwroot/_src/cssBase'));
-});
+// tsView to w3/jsView
+async function doTsView() {
+    const src = "_src/tsView";
+    const files = fs.readdirSync(src)
+        .filter(x => x.endsWith(".ts"));
 
-// copy css base
-gulp.task('copy-js', () => {
-    return gulp.src('../Base/BaseTs/_dist/jsBase/**/*')
-        .pipe(gulp.dest('wwwroot/_src/jsBase'));
-});
+    for (const file of files) {
+        const name = path.basename(file, ".ts");
+        await esbuild.build({
+            entryPoints: [`${src}/${file}`],
+            bundle: true,
+            minify: true,
+            sourcemap: true,
+            outfile: `wwwroot/jsView/${name}.js`,
+            //format: "esm",
+            format: "iife",
+            target: ["es2018"]
+        });
+    }
+}
 
-// Locale 目錄直接複製任務
-gulp.task('copy-locale', () => {
-    return gulp.src('../Base/BaseTs/_dist/jsBase/Locale/**/*')
-        .pipe(gulp.dest('wwwroot/locale'));
-});
+// jsLib to w3/lib.min.js
+function doJsLib() {
+    //JS ���ǫܭ��n
+    const dirLib = `${dirSrc}jsLib/`;
+    return gulp.src([
+            `${dirLib}jquery-3.7.1.js`,
+            `${dirLib}bootstrap.bundle-5.2.3.js`,
+            `${dirLib}bootstrap-datepicker-1.9.js`,
+            `${dirLib}datatables-2.3.2.js`,
+            `${dirLib}jquery.validate-1.19.3-bruce.js`,
+            `${dirLib}jquery.pjax-2.0.1-bruce.js`,
+            `${dirLib}moment-2.30.1.js`,
+            `${dirLib}mustache-3.1.js`,
+            `${dirLib}chart-4.4.1.js`
+        ])
+        .pipe(concat("lib.min.js"))
+        .pipe(terser())
+        .pipe(gulp.dest("wwwroot"));
+}
 
-// copy-font 任務
-gulp.task('copy-font', () => {
-    // 將來源路徑調整為您實際存放字型的資料夾
-    return gulp.src('../Base/BaseTs/_dist/font/*')
-        .pipe(gulp.dest('wwwroot/font'));
-});
+// cssBase to w3/base.min.css
+function doCssBase() {
+    return gulp.src(`${dirSrc}cssBase/*.css`)
+        .pipe(sourcemaps.init())
+        .pipe(concat("base.min.css"))
+        .pipe(cleanCSS())
+        .pipe(sourcemaps.write("."))
+        .pipe(gulp.dest("wwwroot"));
+}
 
-// 組合所有任務
-gulp.task('default', gulp.series(
-    // 將多個複製任務設為並行，提升執行效率
-    gulp.parallel('copy-css', 'copy-js', 'copy-locale', 'copy-font'),
-    gulp.parallel(...bundleTasks)
-));
+// cssLib to w3/lib.min.css
+function doCssLib() {
+    return gulp.src(`${dirSrc}cssLib/*.css`)
+        .pipe(concat("lib.min.css"))
+        .pipe(cleanCSS())
+        .pipe(gulp.dest("wwwroot"));
+}
+
+// locale to w3/locale
+function doLocale() {
+    return gulp.src(`${dirSrc}locale/**/*`)
+        .pipe(gulp.dest("wwwroot/locale"));
+}
+
+// locale to w3/locale/zh-TW.js...(�������Y)
+function doLang(lang) {
+    return function () {
+        return gulp.src(`${dirSrc}locale/${lang}/*.js`)
+            .pipe(concat(`${lang}.min.js`))
+            .pipe(terser())
+            .pipe(gulp.dest("wwwroot/locale"));
+    };
+}
+
+// font to w3/font
+function doFont() {
+    return gulp.src(`${dirSrc}font/*`)
+        .pipe(gulp.dest("wwwroot/font"));
+}
+
+// Watch
+function watch() {
+    gulp.watch(
+        ["_src/tsView/*.ts"],
+        doTsView
+    );
+}
+
+// Build
+const build =
+    gulp.series(
+        cleanTask,
+        doTsBase,
+        doTsView,
+        doJsLib,
+        doCssBase,
+        doCssLib,
+        doLocale,
+        doLang('zh-TW'),
+        doLang('zh-CN'),
+        doLang('en-US'),
+        doFont
+    );
+
+// Export
+exports.clean = cleanTask;
+exports.tsBase = doTsBase;
+exports.tsView = doTsView;
+exports.cssBase = doCssBase;
+exports.locale = doLocale;
+exports.build = build;
+exports.watch =
+    gulp.series(
+        build,
+        watch
+    );
+exports.default = build;

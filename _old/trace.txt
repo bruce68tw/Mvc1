@@ -1,0 +1,1618 @@
+======== Resolving module 'moment' from 'C:/_project/Mvc1/global.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+'baseUrl' option is set to 'C:/_project/Mvc1', using this value to resolve non-relative module name 'moment'.
+'paths' option is specified, looking for a pattern to match module name 'moment'.
+'baseUrl' option is set to 'C:/_project/Mvc1', using this value to resolve non-relative module name 'moment'.
+Resolving module name 'moment' relative to base url 'C:/_project/Mvc1' - 'C:/_project/Mvc1/moment'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/moment', target file types: TypeScript, JavaScript, Declaration, JSON.
+File 'C:/_project/Mvc1/moment.ts' does not exist.
+File 'C:/_project/Mvc1/moment.tsx' does not exist.
+File 'C:/_project/Mvc1/moment.d.ts' does not exist.
+File 'C:/_project/Mvc1/moment.js' does not exist.
+File 'C:/_project/Mvc1/moment.jsx' does not exist.
+Directory 'C:/_project/Mvc1/moment' does not exist, skipping all lookups in it.
+Found 'package.json' at 'C:/_project/Mvc1/package.json'.
+Loading module 'moment' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Found 'package.json' at 'C:/_project/Mvc1/node_modules/moment/package.json'.
+File 'C:/_project/Mvc1/node_modules/moment.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/moment.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/moment.d.ts' does not exist.
+'package.json' has a 'typesVersions' field with version-specific path mappings.
+'package.json' has 'typings' field './moment.d.ts' that references 'C:/_project/Mvc1/node_modules/moment/moment.d.ts'.
+'package.json' has a 'typesVersions' entry '>=3.1' that matches compiler version '6.0.3', looking for a pattern to match module name 'moment.d.ts'.
+Module name 'moment.d.ts', matched pattern '*'.
+Trying substitution 'ts3.1-typings/*', candidate module location: 'ts3.1-typings/moment.d.ts'.
+File 'C:/_project/Mvc1/node_modules/moment/ts3.1-typings/moment.d.ts' exists - use it as a name resolution result.
+'package.json' does not have a 'peerDependencies' field.
+Resolving real path for 'C:/_project/Mvc1/node_modules/moment/ts3.1-typings/moment.d.ts', result 'C:/_project/Mvc1/node_modules/moment/ts3.1-typings/moment.d.ts'.
+======== Module name 'moment' was successfully resolved to 'C:/_project/Mvc1/node_modules/moment/ts3.1-typings/moment.d.ts' with Package ID 'moment/ts3.1-typings/moment.d.ts@2.30.1'. ========
+======== Resolving module 'mustache' from 'C:/_project/Mvc1/global.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+'baseUrl' option is set to 'C:/_project/Mvc1', using this value to resolve non-relative module name 'mustache'.
+'paths' option is specified, looking for a pattern to match module name 'mustache'.
+'baseUrl' option is set to 'C:/_project/Mvc1', using this value to resolve non-relative module name 'mustache'.
+Resolving module name 'mustache' relative to base url 'C:/_project/Mvc1' - 'C:/_project/Mvc1/mustache'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/mustache', target file types: TypeScript, JavaScript, Declaration, JSON.
+File 'C:/_project/Mvc1/mustache.ts' does not exist.
+File 'C:/_project/Mvc1/mustache.tsx' does not exist.
+File 'C:/_project/Mvc1/mustache.d.ts' does not exist.
+File 'C:/_project/Mvc1/mustache.js' does not exist.
+File 'C:/_project/Mvc1/mustache.jsx' does not exist.
+Directory 'C:/_project/Mvc1/mustache' does not exist, skipping all lookups in it.
+File 'C:/_project/Mvc1/package.json' exists according to earlier cached lookups.
+Loading module 'mustache' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Found 'package.json' at 'C:/_project/Mvc1/node_modules/mustache/package.json'.
+File 'C:/_project/Mvc1/node_modules/mustache.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache.d.ts' does not exist.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field './mustache.js' that references 'C:/_project/Mvc1/node_modules/mustache/mustache.js'.
+File name 'C:/_project/Mvc1/node_modules/mustache/mustache.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/mustache/mustache.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache/mustache.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache/mustache.d.ts' does not exist.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/mustache/mustache.js', target file types: TypeScript, Declaration.
+File name 'C:/_project/Mvc1/node_modules/mustache/mustache.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/mustache/mustache.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache/mustache.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache/mustache.d.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache/mustache.js.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache/mustache.js.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache/mustache.js.d.ts' does not exist.
+Directory 'C:/_project/Mvc1/node_modules/mustache/mustache.js' does not exist, skipping all lookups in it.
+File 'C:/_project/Mvc1/node_modules/mustache/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/mustache/index.d.ts' does not exist.
+Found 'package.json' at 'C:/_project/Mvc1/node_modules/@types/mustache/package.json'.
+Entering conditional exports.
+Matched 'exports' condition 'types'.
+Entering conditional exports.
+Matched 'exports' condition 'import'.
+Using 'exports' subpath '.' with target './index.d.mts'.
+File 'C:/_project/Mvc1/node_modules/@types/mustache/index.d.mts' exists - use it as a name resolution result.
+'package.json' has a 'peerDependencies' field.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/mustache', result 'C:/_project/Mvc1/node_modules/@types/mustache'.
+Resolved under condition 'import'.
+Exiting conditional exports.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/mustache/index.d.mts', result 'C:/_project/Mvc1/node_modules/@types/mustache/index.d.mts'.
+======== Module name 'mustache' was successfully resolved to 'C:/_project/Mvc1/node_modules/@types/mustache/index.d.mts' with Package ID '@types/mustache/index.d.mts@4.2.6'. ========
+======== Resolving module 'chart.js' from 'C:/_project/Mvc1/global.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+'baseUrl' option is set to 'C:/_project/Mvc1', using this value to resolve non-relative module name 'chart.js'.
+'paths' option is specified, looking for a pattern to match module name 'chart.js'.
+'baseUrl' option is set to 'C:/_project/Mvc1', using this value to resolve non-relative module name 'chart.js'.
+Resolving module name 'chart.js' relative to base url 'C:/_project/Mvc1' - 'C:/_project/Mvc1/chart.js'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/chart.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/chart.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/chart.ts' does not exist.
+File 'C:/_project/Mvc1/chart.tsx' does not exist.
+File 'C:/_project/Mvc1/chart.d.ts' does not exist.
+File 'C:/_project/Mvc1/chart.js' does not exist.
+File 'C:/_project/Mvc1/chart.jsx' does not exist.
+File 'C:/_project/Mvc1/chart.js.ts' does not exist.
+File 'C:/_project/Mvc1/chart.js.tsx' does not exist.
+File 'C:/_project/Mvc1/chart.js.d.ts' does not exist.
+File 'C:/_project/Mvc1/chart.js.js' does not exist.
+File 'C:/_project/Mvc1/chart.js.jsx' does not exist.
+Directory 'C:/_project/Mvc1/chart.js' does not exist, skipping all lookups in it.
+File 'C:/_project/Mvc1/package.json' exists according to earlier cached lookups.
+Loading module 'chart.js' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+Found 'package.json' at 'C:/_project/Mvc1/node_modules/chart.js/package.json'.
+Entering conditional exports.
+Matched 'exports' condition 'types'.
+Using 'exports' subpath '.' with target './dist/types.d.ts'.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts' exists - use it as a name resolution result.
+'package.json' does not have a 'peerDependencies' field.
+Resolved under condition 'types'.
+Exiting conditional exports.
+Resolving real path for 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts', result 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts'.
+======== Module name 'chart.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts' with Package ID 'chart.js/dist/types.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/moment/ts3.1-typings/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/moment/package.json' exists according to earlier cached lookups.
+======== Resolving module './index.js' from 'C:/_project/Mvc1/node_modules/@types/mustache/index.d.mts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/@types/mustache/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/@types/mustache/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/@types/mustache/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/@types/mustache/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/@types/mustache/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/@types/mustache/package.json' exists according to earlier cached lookups.
+======== Module name './index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/@types/mustache/index.d.ts' with Package ID '@types/mustache/index.d.ts@4.2.6'. ========
+File 'C:/_project/Mvc1/node_modules/@types/mustache/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/index.d.ts' with Package ID 'chart.js/dist/index.d.ts@4.4.1'. ========
+======== Resolving module './types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './controllers/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './controllers/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts' with Package ID 'chart.js/dist/controllers/index.d.ts@4.4.1'. ========
+======== Resolving module './core/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts' with Package ID 'chart.js/dist/core/index.d.ts@4.4.1'. ========
+======== Resolving module './elements/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './elements/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.d.ts' with Package ID 'chart.js/dist/elements/index.d.ts@4.4.1'. ========
+======== Resolving module './platform/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './platform/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/index.d.ts' with Package ID 'chart.js/dist/platform/index.d.ts@4.4.1'. ========
+======== Resolving module './plugins/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './plugins/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.d.ts' with Package ID 'chart.js/dist/plugins/index.d.ts@4.4.1'. ========
+======== Resolving module './scales/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './scales/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.d.ts' with Package ID 'chart.js/dist/scales/index.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './controller.bar.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bar.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bar.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bar.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bar.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bar.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './controller.bar.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bar.d.ts' with Package ID 'chart.js/dist/controllers/controller.bar.d.ts@4.4.1'. ========
+======== Resolving module './controller.bubble.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bubble.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bubble.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bubble.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bubble.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bubble.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './controller.bubble.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bubble.d.ts' with Package ID 'chart.js/dist/controllers/controller.bubble.d.ts@4.4.1'. ========
+======== Resolving module './controller.doughnut.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.doughnut.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.doughnut.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.doughnut.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.doughnut.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.doughnut.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './controller.doughnut.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.doughnut.d.ts' with Package ID 'chart.js/dist/controllers/controller.doughnut.d.ts@4.4.1'. ========
+======== Resolving module './controller.line.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.line.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.line.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.line.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.line.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.line.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './controller.line.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.line.d.ts' with Package ID 'chart.js/dist/controllers/controller.line.d.ts@4.4.1'. ========
+======== Resolving module './controller.polarArea.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.polarArea.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.polarArea.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.polarArea.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.polarArea.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.polarArea.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './controller.polarArea.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.polarArea.d.ts' with Package ID 'chart.js/dist/controllers/controller.polarArea.d.ts@4.4.1'. ========
+======== Resolving module './controller.pie.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.pie.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.pie.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.pie.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.pie.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.pie.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './controller.pie.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.pie.d.ts' with Package ID 'chart.js/dist/controllers/controller.pie.d.ts@4.4.1'. ========
+======== Resolving module './controller.radar.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.radar.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.radar.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.radar.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.radar.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.radar.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './controller.radar.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.radar.d.ts' with Package ID 'chart.js/dist/controllers/controller.radar.d.ts@4.4.1'. ========
+======== Resolving module './controller.scatter.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.scatter.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.scatter.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.scatter.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.scatter.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.scatter.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './controller.scatter.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.scatter.d.ts' with Package ID 'chart.js/dist/controllers/controller.scatter.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.datasetController.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bar.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.datasetController.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' with Package ID 'chart.js/dist/core/core.datasetController.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+======== Resolving module './core.scale.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.scale.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts' with Package ID 'chart.js/dist/core/core.scale.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.config.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.config.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.d.ts' with Package ID 'chart.js/dist/core/core.config.d.ts@4.4.1'. ========
+======== Resolving module './core.plugins.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.plugins.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.plugins.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.plugins.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.plugins.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.plugins.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.plugins.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.plugins.d.ts' with Package ID 'chart.js/dist/core/core.plugins.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+======== Resolving module './core.defaults.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.defaults.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.defaults.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.defaults.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.defaults.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.defaults.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.defaults.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.defaults.d.ts' with Package ID 'chart.js/dist/core/core.defaults.d.ts@4.4.1'. ========
+======== Resolving module './core.registry.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.registry.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.d.ts' with Package ID 'chart.js/dist/core/core.registry.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.plugins.d.ts'. ========
+Resolution for module './core.controller.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.plugins.d.ts'. ========
+Resolution for module '../types/index.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './utils.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/utils.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/utils.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/utils.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/utils.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/utils.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './utils.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/utils.d.ts' with Package ID 'chart.js/dist/types/utils.d.ts@4.4.1'. ========
+======== Resolving module '../core/core.adapters.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.adapters.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.d.ts' with Package ID 'chart.js/dist/core/core.adapters.d.ts@4.4.1'. ========
+======== Resolving module '../elements/element.point.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../elements/element.point.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.d.ts' with Package ID 'chart.js/dist/elements/element.point.d.ts@4.4.1'. ========
+======== Resolving module '../helpers/helpers.easing.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.easing.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.easing.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.easing.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.easing.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.easing.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../helpers/helpers.easing.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.easing.d.ts' with Package ID 'chart.js/dist/helpers/helpers.easing.d.ts@4.4.1'. ========
+======== Resolving module './animation.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './animation.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.d.ts' with Package ID 'chart.js/dist/types/animation.d.ts@4.4.1'. ========
+======== Resolving module './basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+======== Resolving module './color.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/color.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/color.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/color.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/color.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/color.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './color.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/color.d.ts' with Package ID 'chart.js/dist/types/color.d.ts@4.4.1'. ========
+======== Resolving module '../core/core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module './geometric.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './geometric.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.d.ts' with Package ID 'chart.js/dist/types/geometric.d.ts@4.4.1'. ========
+======== Resolving module './layout.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/layout.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/layout.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/layout.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/layout.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/layout.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './layout.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/layout.d.ts' with Package ID 'chart.js/dist/types/layout.d.ts@4.4.1'. ========
+======== Resolving module '../plugins/plugin.colors.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../plugins/plugin.colors.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.d.ts' with Package ID 'chart.js/dist/plugins/plugin.colors.d.ts@4.4.1'. ========
+======== Resolving module '../elements/element.arc.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../elements/element.arc.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.d.ts' with Package ID 'chart.js/dist/elements/element.arc.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../types/basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.d.ts'. ========
+Resolution for module '../types/index.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../types/basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts'. ========
+Resolution for module '../types/basic.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name '../types/basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+======== Resolving module '../types/geometric.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/geometric.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.d.ts' with Package ID 'chart.js/dist/types/geometric.d.ts@4.4.1'. ========
+======== Resolving module '../types/animation.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/animation.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.d.ts' with Package ID 'chart.js/dist/types/animation.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+======== Resolving module './basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/animation.d.ts'. ========
+Resolution for module './basic.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/types'.
+======== Module name './basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './geometric.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/types/layout.d.ts'. ========
+Resolution for module './geometric.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/types'.
+======== Module name './geometric.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/geometric.d.ts' with Package ID 'chart.js/dist/types/geometric.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../types.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts' with Package ID 'chart.js/dist/types.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.d.ts'. ========
+Resolution for module '../core/core.element.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements'.
+======== Module name '../core/core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.d.ts'. ========
+Resolution for module '../types/index.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements'.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.typedRegistry.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.typedRegistry.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.typedRegistry.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.typedRegistry.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.typedRegistry.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.typedRegistry.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.typedRegistry.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.typedRegistry.d.ts' with Package ID 'chart.js/dist/core/core.typedRegistry.d.ts@4.4.1'. ========
+======== Resolving module './core.datasetController.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.datasetController.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' with Package ID 'chart.js/dist/core/core.datasetController.d.ts@4.4.1'. ========
+======== Resolving module './core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module './core.scale.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.d.ts'. ========
+Resolution for module './core.scale.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.scale.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts' with Package ID 'chart.js/dist/core/core.scale.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.defaults.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.typedRegistry.d.ts'. ========
+Resolution for module './core.defaults.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.defaults.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.defaults.d.ts' with Package ID 'chart.js/dist/core/core.defaults.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts'. ========
+Resolution for module './core.element.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module '../types/basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts'. ========
+Resolution for module '../types/basic.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name '../types/basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+======== Resolving module '../types.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts' with Package ID 'chart.js/dist/types.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts'. ========
+Resolution for module '../types/index.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.datasetController.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.bubble.d.ts'. ========
+Resolution for module '../core/core.datasetController.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers'.
+======== Module name '../core/core.datasetController.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' with Package ID 'chart.js/dist/core/core.datasetController.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.datasetController.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.doughnut.d.ts'. ========
+Resolution for module '../core/core.datasetController.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers'.
+======== Module name '../core/core.datasetController.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' with Package ID 'chart.js/dist/core/core.datasetController.d.ts@4.4.1'. ========
+======== Resolving module '../core/core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.doughnut.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.datasetController.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.line.d.ts'. ========
+Resolution for module '../core/core.datasetController.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers'.
+======== Module name '../core/core.datasetController.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' with Package ID 'chart.js/dist/core/core.datasetController.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.datasetController.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.polarArea.d.ts'. ========
+Resolution for module '../core/core.datasetController.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers'.
+======== Module name '../core/core.datasetController.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' with Package ID 'chart.js/dist/core/core.datasetController.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './controller.doughnut.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.pie.d.ts'. ========
+Resolution for module './controller.doughnut.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers'.
+======== Module name './controller.doughnut.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.doughnut.d.ts' with Package ID 'chart.js/dist/controllers/controller.doughnut.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.datasetController.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.radar.d.ts'. ========
+Resolution for module '../core/core.datasetController.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers'.
+======== Module name '../core/core.datasetController.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' with Package ID 'chart.js/dist/core/core.datasetController.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.datasetController.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers/controller.scatter.d.ts'. ========
+Resolution for module '../core/core.datasetController.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/controllers'.
+======== Module name '../core/core.datasetController.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' with Package ID 'chart.js/dist/core/core.datasetController.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.adapters.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.adapters.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.d.ts' with Package ID 'chart.js/dist/core/core.adapters.d.ts@4.4.1'. ========
+======== Resolving module './core.animation.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animation.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animation.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animation.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animation.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animation.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.animation.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animation.d.ts' with Package ID 'chart.js/dist/core/core.animation.d.ts@4.4.1'. ========
+======== Resolving module './core.animations.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.animations.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.d.ts' with Package ID 'chart.js/dist/core/core.animations.d.ts@4.4.1'. ========
+======== Resolving module './core.animator.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animator.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animator.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animator.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animator.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animator.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.animator.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animator.d.ts' with Package ID 'chart.js/dist/core/core.animator.d.ts@4.4.1'. ========
+======== Resolving module './core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Resolution for module './core.controller.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+======== Resolving module './core.datasetController.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Resolution for module './core.datasetController.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.datasetController.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.datasetController.d.ts' with Package ID 'chart.js/dist/core/core.datasetController.d.ts@4.4.1'. ========
+======== Resolving module './core.defaults.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Resolution for module './core.defaults.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.defaults.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.defaults.d.ts' with Package ID 'chart.js/dist/core/core.defaults.d.ts@4.4.1'. ========
+======== Resolving module './core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Resolution for module './core.element.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module './core.interaction.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.interaction.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.d.ts' with Package ID 'chart.js/dist/core/core.interaction.d.ts@4.4.1'. ========
+======== Resolving module './core.layouts.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.layouts.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.layouts.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.layouts.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.layouts.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.layouts.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.layouts.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.layouts.d.ts' with Package ID 'chart.js/dist/core/core.layouts.d.ts@4.4.1'. ========
+======== Resolving module './core.plugins.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Resolution for module './core.plugins.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.plugins.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.plugins.d.ts' with Package ID 'chart.js/dist/core/core.plugins.d.ts@4.4.1'. ========
+======== Resolving module './core.registry.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Resolution for module './core.registry.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.registry.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.registry.d.ts' with Package ID 'chart.js/dist/core/core.registry.d.ts@4.4.1'. ========
+======== Resolving module './core.scale.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Resolution for module './core.scale.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.scale.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts' with Package ID 'chart.js/dist/core/core.scale.d.ts@4.4.1'. ========
+======== Resolving module './core.ticks.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.ticks.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.ticks.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.ticks.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.ticks.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.ticks.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './core.ticks.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.ticks.d.ts' with Package ID 'chart.js/dist/core/core.ticks.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.animation.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animator.d.ts'. ========
+Resolution for module './core.animation.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.animation.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animation.d.ts' with Package ID 'chart.js/dist/core/core.animation.d.ts@4.4.1'. ========
+======== Resolving module './core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animator.d.ts'. ========
+Resolution for module './core.controller.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.d.ts'. ========
+Resolution for module './core.controller.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.d.ts'. ========
+Resolution for module '../types/index.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+======== Resolving module './core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.d.ts'. ========
+Resolution for module './core.element.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.layouts.d.ts'. ========
+Resolution for module './core.controller.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/core'.
+======== Module name './core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './element.arc.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './element.arc.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.arc.d.ts' with Package ID 'chart.js/dist/elements/element.arc.d.ts@4.4.1'. ========
+======== Resolving module './element.line.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './element.line.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.d.ts' with Package ID 'chart.js/dist/elements/element.line.d.ts@4.4.1'. ========
+======== Resolving module './element.point.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './element.point.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.d.ts' with Package ID 'chart.js/dist/elements/element.point.d.ts@4.4.1'. ========
+======== Resolving module './element.bar.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.bar.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.bar.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.bar.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.bar.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.bar.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './element.bar.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.bar.d.ts' with Package ID 'chart.js/dist/elements/element.bar.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.d.ts'. ========
+Resolution for module '../core/core.element.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements'.
+======== Module name '../core/core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module '../types/basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+======== Resolving module '../helpers/helpers.segment.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.segment.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.segment.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.segment.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.segment.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.segment.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../helpers/helpers.segment.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.segment.d.ts' with Package ID 'chart.js/dist/helpers/helpers.segment.d.ts@4.4.1'. ========
+======== Resolving module './element.point.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.d.ts'. ========
+Resolution for module './element.point.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements'.
+======== Module name './element.point.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.d.ts' with Package ID 'chart.js/dist/elements/element.point.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../elements/element.line.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.segment.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../elements/element.line.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.line.d.ts' with Package ID 'chart.js/dist/elements/element.line.d.ts@4.4.1'. ========
+======== Resolving module '../elements/element.point.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.segment.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../elements/element.point.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.point.d.ts' with Package ID 'chart.js/dist/elements/element.point.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.bar.d.ts'. ========
+Resolution for module '../core/core.element.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements'.
+======== Module name '../core/core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module '../types/basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/elements/element.bar.d.ts'. ========
+Resolution for module '../types/basic.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/elements'.
+======== Module name '../types/basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './platform.basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.basic.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.basic.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.basic.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.basic.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.basic.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './platform.basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.basic.d.ts' with Package ID 'chart.js/dist/platform/platform.basic.d.ts@4.4.1'. ========
+======== Resolving module './platform.dom.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.dom.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.dom.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.dom.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.dom.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.dom.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './platform.dom.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.dom.d.ts' with Package ID 'chart.js/dist/platform/platform.dom.d.ts@4.4.1'. ========
+======== Resolving module './platform.base.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './platform.base.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.d.ts' with Package ID 'chart.js/dist/platform/platform.base.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './platform.base.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.basic.d.ts'. ========
+Resolution for module './platform.base.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/platform'.
+======== Module name './platform.base.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.d.ts' with Package ID 'chart.js/dist/platform/platform.base.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.config.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.config.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.config.d.ts' with Package ID 'chart.js/dist/core/core.config.d.ts@4.4.1'. ========
+======== Resolving module '../core/core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './platform.base.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.dom.d.ts'. ========
+Resolution for module './platform.base.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/platform'.
+======== Module name './platform.base.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.d.ts' with Package ID 'chart.js/dist/platform/platform.base.d.ts@4.4.1'. ========
+======== Resolving module '../core/core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.dom.d.ts'. ========
+Resolution for module '../core/core.controller.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/platform'.
+======== Module name '../core/core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './plugin.colors.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './plugin.colors.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.colors.d.ts' with Package ID 'chart.js/dist/plugins/plugin.colors.d.ts@4.4.1'. ========
+======== Resolving module './plugin.decimation.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.decimation.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.decimation.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.decimation.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.decimation.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.decimation.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './plugin.decimation.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.decimation.d.ts' with Package ID 'chart.js/dist/plugins/plugin.decimation.d.ts@4.4.1'. ========
+======== Resolving module './plugin.filler/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.filler/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.filler/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.filler/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.filler/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.filler/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './plugin.filler/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.filler/index.d.ts' with Package ID 'chart.js/dist/plugins/plugin.filler/index.d.ts@4.4.1'. ========
+======== Resolving module './plugin.legend.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.legend.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.legend.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.legend.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.legend.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.legend.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './plugin.legend.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.legend.d.ts' with Package ID 'chart.js/dist/plugins/plugin.legend.d.ts@4.4.1'. ========
+======== Resolving module './plugin.subtitle.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.subtitle.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.subtitle.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.subtitle.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.subtitle.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.subtitle.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './plugin.subtitle.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.subtitle.d.ts' with Package ID 'chart.js/dist/plugins/plugin.subtitle.d.ts@4.4.1'. ========
+======== Resolving module './plugin.title.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.title.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.title.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.title.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.title.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.title.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './plugin.title.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.title.d.ts' with Package ID 'chart.js/dist/plugins/plugin.title.d.ts@4.4.1'. ========
+======== Resolving module './plugin.tooltip.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './plugin.tooltip.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts' with Package ID 'chart.js/dist/plugins/plugin.tooltip.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.filler/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.legend.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module '../types/basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.legend.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.legend.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.title.d.ts'. ========
+Resolution for module '../core/core.element.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins'.
+======== Module name '../core/core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module '../types/basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.title.d.ts'. ========
+Resolution for module '../types/basic.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins'.
+======== Module name '../types/basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+======== Resolving module '../types.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.title.d.ts'. ========
+Resolution for module '../types.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins'.
+======== Module name '../types.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts' with Package ID 'chart.js/dist/types.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.element.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts'. ========
+Resolution for module '../core/core.element.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins'.
+======== Module name '../core/core.element.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.element.d.ts' with Package ID 'chart.js/dist/core/core.element.d.ts@4.4.1'. ========
+======== Resolving module '../core/core.animations.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.animations.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.animations.d.ts' with Package ID 'chart.js/dist/core/core.animations.d.ts@4.4.1'. ========
+======== Resolving module '../helpers/helpers.core.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.core.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.core.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.core.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.core.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.core.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../helpers/helpers.core.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.core.d.ts' with Package ID 'chart.js/dist/helpers/helpers.core.d.ts@4.4.1'. ========
+======== Resolving module '../types/basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts'. ========
+Resolution for module '../types/basic.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins'.
+======== Module name '../types/basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+======== Resolving module '../core/core.controller.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.controller.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.controller.d.ts' with Package ID 'chart.js/dist/core/core.controller.d.ts@4.4.1'. ========
+======== Resolving module '../platform/platform.base.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../platform/platform.base.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/platform/platform.base.d.ts' with Package ID 'chart.js/dist/platform/platform.base.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts'. ========
+Resolution for module '../types/index.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins'.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+======== Resolving module '../core/core.interaction.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.interaction.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.interaction.d.ts' with Package ID 'chart.js/dist/core/core.interaction.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../types/basic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.core.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/basic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/basic.d.ts' with Package ID 'chart.js/dist/types/basic.d.ts@4.4.1'. ========
+======== Resolving module '../types/index.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/helpers/helpers.core.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types/index.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types/index.d.ts' with Package ID 'chart.js/dist/types/index.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/package.json' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './scale.category.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.category.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.category.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.category.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.category.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.category.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './scale.category.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.category.d.ts' with Package ID 'chart.js/dist/scales/scale.category.d.ts@4.4.1'. ========
+======== Resolving module './scale.linear.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linear.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linear.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linear.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linear.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linear.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './scale.linear.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linear.d.ts' with Package ID 'chart.js/dist/scales/scale.linear.d.ts@4.4.1'. ========
+======== Resolving module './scale.logarithmic.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.logarithmic.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.logarithmic.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.logarithmic.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.logarithmic.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.logarithmic.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './scale.logarithmic.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.logarithmic.d.ts' with Package ID 'chart.js/dist/scales/scale.logarithmic.d.ts@4.4.1'. ========
+======== Resolving module './scale.radialLinear.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.radialLinear.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.radialLinear.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.radialLinear.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.radialLinear.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.radialLinear.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './scale.radialLinear.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.radialLinear.d.ts' with Package ID 'chart.js/dist/scales/scale.radialLinear.d.ts@4.4.1'. ========
+======== Resolving module './scale.time.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.time.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.time.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.time.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.time.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.time.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './scale.time.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.time.d.ts' with Package ID 'chart.js/dist/scales/scale.time.d.ts@4.4.1'. ========
+======== Resolving module './scale.timeseries.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/index.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.timeseries.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.timeseries.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.timeseries.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.timeseries.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.timeseries.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './scale.timeseries.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.timeseries.d.ts' with Package ID 'chart.js/dist/scales/scale.timeseries.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.scale.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.category.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.scale.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts' with Package ID 'chart.js/dist/core/core.scale.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './scale.linearbase.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linear.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linearbase.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linearbase.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linearbase.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linearbase.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linearbase.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name './scale.linearbase.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linearbase.d.ts' with Package ID 'chart.js/dist/scales/scale.linearbase.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.scale.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linearbase.d.ts'. ========
+Resolution for module '../core/core.scale.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales'.
+======== Module name '../core/core.scale.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts' with Package ID 'chart.js/dist/core/core.scale.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.scale.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.logarithmic.d.ts'. ========
+Resolution for module '../core/core.scale.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales'.
+======== Module name '../core/core.scale.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts' with Package ID 'chart.js/dist/core/core.scale.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './scale.linearbase.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.radialLinear.d.ts'. ========
+Resolution for module './scale.linearbase.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales'.
+======== Module name './scale.linearbase.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.linearbase.d.ts' with Package ID 'chart.js/dist/scales/scale.linearbase.d.ts@4.4.1'. ========
+======== Resolving module '../types.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.radialLinear.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/types.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/types.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../types.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/types.d.ts' with Package ID 'chart.js/dist/types.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module '../core/core.scale.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.time.d.ts'. ========
+Resolution for module '../core/core.scale.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales'.
+======== Module name '../core/core.scale.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.scale.d.ts' with Package ID 'chart.js/dist/core/core.scale.d.ts@4.4.1'. ========
+======== Resolving module '../core/core.adapters.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.time.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+Loading module as file / folder, candidate module location 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.js', target file types: TypeScript, JavaScript, Declaration, JSON.
+File name 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.js' has a '.js' extension - stripping it.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.ts' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.tsx' does not exist.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.d.ts' exists - use it as a name resolution result.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Module name '../core/core.adapters.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/core/core.adapters.d.ts' with Package ID 'chart.js/dist/core/core.adapters.d.ts@4.4.1'. ========
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/dist/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/chart.js/package.json' exists according to earlier cached lookups.
+======== Resolving module './scale.time.js' from 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.timeseries.d.ts'. ========
+Resolution for module './scale.time.js' was found in cache from location 'C:/_project/Mvc1/node_modules/chart.js/dist/scales'.
+======== Module name './scale.time.js' was successfully resolved to 'C:/_project/Mvc1/node_modules/chart.js/dist/scales/scale.time.d.ts' with Package ID 'chart.js/dist/scales/scale.time.d.ts@4.4.1'. ========
+======== Resolving type reference directive 'jquery', containing file 'C:/_project/Mvc1/__inferred type names__.ts', root directory 'C:/_project/Mvc1/node_modules/@types,C:/_project/node_modules/@types,C:/node_modules/@types'. ========
+Resolving with primary search path 'C:/_project/Mvc1/node_modules/@types, C:/_project/node_modules/@types, C:/node_modules/@types'.
+Found 'package.json' at 'C:/_project/Mvc1/node_modules/@types/jquery/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts'.
+File 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts' exists - use it as a name resolution result.
+'package.json' has a 'peerDependencies' field.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/jquery', result 'C:/_project/Mvc1/node_modules/@types/jquery'.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts', result 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts'.
+======== Type reference directive 'jquery' was successfully resolved to 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts' with Package ID '@types/jquery/index.d.ts@3.5.32', primary: true. ========
+======== Resolving type reference directive 'jquery.validation', containing file 'C:/_project/Mvc1/__inferred type names__.ts', root directory 'C:/_project/Mvc1/node_modules/@types,C:/_project/node_modules/@types,C:/node_modules/@types'. ========
+Resolving with primary search path 'C:/_project/Mvc1/node_modules/@types, C:/_project/node_modules/@types, C:/node_modules/@types'.
+Found 'package.json' at 'C:/_project/Mvc1/node_modules/@types/jquery.validation/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'C:/_project/Mvc1/node_modules/@types/jquery.validation/index.d.ts'.
+File 'C:/_project/Mvc1/node_modules/@types/jquery.validation/index.d.ts' exists - use it as a name resolution result.
+'package.json' has a 'peerDependencies' field.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/jquery.validation', result 'C:/_project/Mvc1/node_modules/@types/jquery.validation'.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/jquery.validation/index.d.ts', result 'C:/_project/Mvc1/node_modules/@types/jquery.validation/index.d.ts'.
+======== Type reference directive 'jquery.validation' was successfully resolved to 'C:/_project/Mvc1/node_modules/@types/jquery.validation/index.d.ts' with Package ID '@types/jquery.validation/index.d.ts@1.17.1', primary: true. ========
+======== Resolving type reference directive 'datatables.net', containing file 'C:/_project/Mvc1/__inferred type names__.ts', root directory 'C:/_project/Mvc1/node_modules/@types,C:/_project/node_modules/@types,C:/node_modules/@types'. ========
+Resolving with primary search path 'C:/_project/Mvc1/node_modules/@types, C:/_project/node_modules/@types, C:/node_modules/@types'.
+Found 'package.json' at 'C:/_project/Mvc1/node_modules/@types/datatables.net/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'C:/_project/Mvc1/node_modules/@types/datatables.net/index.d.ts'.
+File 'C:/_project/Mvc1/node_modules/@types/datatables.net/index.d.ts' exists - use it as a name resolution result.
+'package.json' does not have a 'peerDependencies' field.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/datatables.net/index.d.ts', result 'C:/_project/Mvc1/node_modules/@types/datatables.net/index.d.ts'.
+======== Type reference directive 'datatables.net' was successfully resolved to 'C:/_project/Mvc1/node_modules/@types/datatables.net/index.d.ts' with Package ID '@types/datatables.net/index.d.ts@1.10.28', primary: true. ========
+File 'C:/_project/Mvc1/node_modules/@types/jquery/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/@types/jquery/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/@types/jquery/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/@types/jquery/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/@types/jquery/package.json' exists according to earlier cached lookups.
+======== Resolving type reference directive 'sizzle', containing file 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts', root directory 'C:/_project/Mvc1/node_modules/@types,C:/_project/node_modules/@types,C:/node_modules/@types'. ========
+Resolving with primary search path 'C:/_project/Mvc1/node_modules/@types, C:/_project/node_modules/@types, C:/node_modules/@types'.
+Found 'package.json' at 'C:/_project/Mvc1/node_modules/@types/sizzle/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'C:/_project/Mvc1/node_modules/@types/sizzle/index.d.ts'.
+File 'C:/_project/Mvc1/node_modules/@types/sizzle/index.d.ts' exists - use it as a name resolution result.
+'package.json' has a 'peerDependencies' field.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/sizzle', result 'C:/_project/Mvc1/node_modules/@types/sizzle'.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/sizzle/index.d.ts', result 'C:/_project/Mvc1/node_modules/@types/sizzle/index.d.ts'.
+======== Type reference directive 'sizzle' was successfully resolved to 'C:/_project/Mvc1/node_modules/@types/sizzle/index.d.ts' with Package ID '@types/sizzle/index.d.ts@2.3.10', primary: true. ========
+File 'C:/_project/Mvc1/node_modules/@types/sizzle/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/@types/jquery.validation/package.json' exists according to earlier cached lookups.
+======== Resolving type reference directive 'jquery', containing file 'C:/_project/Mvc1/node_modules/@types/jquery.validation/index.d.ts', root directory 'C:/_project/Mvc1/node_modules/@types,C:/_project/node_modules/@types,C:/node_modules/@types'. ========
+Resolving with primary search path 'C:/_project/Mvc1/node_modules/@types, C:/_project/node_modules/@types, C:/node_modules/@types'.
+File 'C:/_project/Mvc1/node_modules/@types/jquery/package.json' exists according to earlier cached lookups.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts'.
+File 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts' exists - use it as a name resolution result.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts', result 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts'.
+======== Type reference directive 'jquery' was successfully resolved to 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts' with Package ID '@types/jquery/index.d.ts@3.5.32', primary: true. ========
+File 'C:/_project/Mvc1/node_modules/@types/datatables.net/package.json' exists according to earlier cached lookups.
+======== Resolving type reference directive 'jquery', containing file 'C:/_project/Mvc1/node_modules/@types/datatables.net/index.d.ts', root directory 'C:/_project/Mvc1/node_modules/@types,C:/_project/node_modules/@types,C:/node_modules/@types'. ========
+Resolving with primary search path 'C:/_project/Mvc1/node_modules/@types, C:/_project/node_modules/@types, C:/node_modules/@types'.
+File 'C:/_project/Mvc1/node_modules/@types/jquery/package.json' exists according to earlier cached lookups.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts'.
+File 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts' exists - use it as a name resolution result.
+Resolving real path for 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts', result 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts'.
+======== Type reference directive 'jquery' was successfully resolved to 'C:/_project/Mvc1/node_modules/@types/jquery/index.d.ts' with Package ID '@types/jquery/index.d.ts@3.5.32', primary: true. ========
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist.
+Found 'package.json' at 'C:/_project/Mvc1/node_modules/typescript/package.json'.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/lib/package.json' does not exist according to earlier cached lookups.
+File 'C:/_project/Mvc1/node_modules/typescript/package.json' exists according to earlier cached lookups.
+tsconfig.json(3,5): error TS5101: Option 'baseUrl' is deprecated and will stop functioning in TypeScript 7.0. Specify compilerOption '"ignoreDeprecations": "6.0"' to silence this error.
+  Visit https://aka.ms/ts6 for migration information.
